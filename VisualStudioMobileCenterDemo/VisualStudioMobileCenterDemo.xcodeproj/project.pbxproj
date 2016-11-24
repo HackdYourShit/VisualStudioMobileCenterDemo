@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5404A75818197764F7FFECA /* Pods_VisualStudioMobileCenterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CBCA857E8E10CDAD12823C /* Pods_VisualStudioMobileCenterDemo.framework */; };
+		E118DEDC1DE55B7200E63722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118DEDB1DE55B7200E63722 /* AppDelegate.swift */; };
+		E118DEE31DE55B7200E63722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E118DEE21DE55B7200E63722 /* Assets.xcassets */; };
+		E118DEE61DE55B7200E63722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E118DEE41DE55B7200E63722 /* LaunchScreen.storyboard */; };
+		E118DEF11DE55B7200E63722 /* VisualStudioMobileCenterDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118DEF01DE55B7200E63722 /* VisualStudioMobileCenterDemoTests.swift */; };
+		E118DEFC1DE55B7200E63722 /* VisualStudioMobileCenterDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E118DEFB1DE55B7200E63722 /* VisualStudioMobileCenterDemoUITests.swift */; };
+		E1F8BFAB1DE6C84900669BFE /* MSDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F8BF9F1DE6C84900669BFE /* MSDetailsTableViewCell.swift */; };
+		E1F8BFAC1DE6C84900669BFE /* MSDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F8BFA01DE6C84900669BFE /* MSDetailsTableViewCell.xib */; };
+		E1F8BFAD1DE6C84900669BFE /* MSSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F8BFA11DE6C84900669BFE /* MSSwitchTableViewCell.swift */; };
+		E1F8BFAE1DE6C84900669BFE /* MSSwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F8BFA21DE6C84900669BFE /* MSSwitchTableViewCell.xib */; };
+		E1F8BFAF1DE6C84900669BFE /* MSTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F8BFA31DE6C84900669BFE /* MSTitleTableViewCell.swift */; };
+		E1F8BFB01DE6C84900669BFE /* MSTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F8BFA41DE6C84900669BFE /* MSTitleTableViewCell.xib */; };
+		E1F8BFB11DE6C84900669BFE /* MSCrashReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F8BFA71DE6C84900669BFE /* MSCrashReportViewController.swift */; };
+		E1F8BFB21DE6C84900669BFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F8BFAA1DE6C84900669BFE /* ViewController.swift */; };
+		E1F8BFB61DE6C8BF00669BFE /* MSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F8BFB51DE6C8BF00669BFE /* MSAlertController.m */; };
+		E1F8BFB91DE6C94900669BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F8BFB71DE6C94900669BFE /* Main.storyboard */; };
+		E1F8BFBD1DE6CAE900669BFE /* MSVC-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = E1F8BFBC1DE6CAE900669BFE /* MSVC-Bridging-Header.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E118DEED1DE55B7200E63722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E118DED01DE55B7200E63722 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E118DED71DE55B7200E63722;
+			remoteInfo = VisualStudioMobileCenterDemo;
+		};
+		E118DEF81DE55B7200E63722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E118DED01DE55B7200E63722 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E118DED71DE55B7200E63722;
+			remoteInfo = VisualStudioMobileCenterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54CBCA857E8E10CDAD12823C /* Pods_VisualStudioMobileCenterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisualStudioMobileCenterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60BF8F9FCA9879006194571 /* Pods-VisualStudioMobileCenterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisualStudioMobileCenterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VisualStudioMobileCenterDemo/Pods-VisualStudioMobileCenterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E118DED81DE55B7200E63722 /* VisualStudioMobileCenterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualStudioMobileCenterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E118DEDB1DE55B7200E63722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E118DEE21DE55B7200E63722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E118DEE51DE55B7200E63722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E118DEE71DE55B7200E63722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E118DEEC1DE55B7200E63722 /* VisualStudioMobileCenterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualStudioMobileCenterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E118DEF01DE55B7200E63722 /* VisualStudioMobileCenterDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualStudioMobileCenterDemoTests.swift; sourceTree = "<group>"; };
+		E118DEF21DE55B7200E63722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E118DEF71DE55B7200E63722 /* VisualStudioMobileCenterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualStudioMobileCenterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E118DEFB1DE55B7200E63722 /* VisualStudioMobileCenterDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualStudioMobileCenterDemoUITests.swift; sourceTree = "<group>"; };
+		E118DEFD1DE55B7200E63722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1F8BF9F1DE6C84900669BFE /* MSDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		E1F8BFA01DE6C84900669BFE /* MSDetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		E1F8BFA11DE6C84900669BFE /* MSSwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSSwitchTableViewCell.swift; sourceTree = "<group>"; };
+		E1F8BFA21DE6C84900669BFE /* MSSwitchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSSwitchTableViewCell.xib; sourceTree = "<group>"; };
+		E1F8BFA31DE6C84900669BFE /* MSTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSTitleTableViewCell.swift; sourceTree = "<group>"; };
+		E1F8BFA41DE6C84900669BFE /* MSTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSTitleTableViewCell.xib; sourceTree = "<group>"; };
+		E1F8BFA71DE6C84900669BFE /* MSCrashReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSCrashReportViewController.swift; sourceTree = "<group>"; };
+		E1F8BFAA1DE6C84900669BFE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1F8BFB41DE6C8BF00669BFE /* MSAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAlertController.h; sourceTree = "<group>"; };
+		E1F8BFB51DE6C8BF00669BFE /* MSAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAlertController.m; sourceTree = "<group>"; };
+		E1F8BFB81DE6C94900669BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1F8BFBC1DE6CAE900669BFE /* MSVC-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSVC-Bridging-Header.h"; sourceTree = "<group>"; };
+		EECF96ECA46A066F9FA8CED1 /* Pods-VisualStudioMobileCenterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisualStudioMobileCenterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VisualStudioMobileCenterDemo/Pods-VisualStudioMobileCenterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E118DED51DE55B7200E63722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5404A75818197764F7FFECA /* Pods_VisualStudioMobileCenterDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E118DEE91DE55B7200E63722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E118DEF41DE55B7200E63722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17DE58A1804DB7BB65B93C87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EECF96ECA46A066F9FA8CED1 /* Pods-VisualStudioMobileCenterDemo.debug.xcconfig */,
+				B60BF8F9FCA9879006194571 /* Pods-VisualStudioMobileCenterDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA4B50E23B3A1F652880E6DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54CBCA857E8E10CDAD12823C /* Pods_VisualStudioMobileCenterDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E118DECF1DE55B7200E63722 = {
+			isa = PBXGroup;
+			children = (
+				E118DEDA1DE55B7200E63722 /* VisualStudioMobileCenterDemo */,
+				E118DEEF1DE55B7200E63722 /* VisualStudioMobileCenterDemoTests */,
+				E118DEFA1DE55B7200E63722 /* VisualStudioMobileCenterDemoUITests */,
+				E118DED91DE55B7200E63722 /* Products */,
+				17DE58A1804DB7BB65B93C87 /* Pods */,
+				CA4B50E23B3A1F652880E6DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E118DED91DE55B7200E63722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E118DED81DE55B7200E63722 /* VisualStudioMobileCenterDemo.app */,
+				E118DEEC1DE55B7200E63722 /* VisualStudioMobileCenterDemoTests.xctest */,
+				E118DEF71DE55B7200E63722 /* VisualStudioMobileCenterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E118DEDA1DE55B7200E63722 /* VisualStudioMobileCenterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E1F8BFBE1DE6CAF600669BFE /* Storyboard */,
+				E1F8BFA51DE6C84900669BFE /* ViewControllers */,
+				E1F8BF9E1DE6C84900669BFE /* CommonTableViewCell */,
+				E1F8BFBF1DE6CB0600669BFE /* SupportingFlies */,
+				E118DEDB1DE55B7200E63722 /* AppDelegate.swift */,
+			);
+			path = VisualStudioMobileCenterDemo;
+			sourceTree = "<group>";
+		};
+		E118DEEF1DE55B7200E63722 /* VisualStudioMobileCenterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E118DEF01DE55B7200E63722 /* VisualStudioMobileCenterDemoTests.swift */,
+				E118DEF21DE55B7200E63722 /* Info.plist */,
+			);
+			path = VisualStudioMobileCenterDemoTests;
+			sourceTree = "<group>";
+		};
+		E118DEFA1DE55B7200E63722 /* VisualStudioMobileCenterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E118DEFB1DE55B7200E63722 /* VisualStudioMobileCenterDemoUITests.swift */,
+				E118DEFD1DE55B7200E63722 /* Info.plist */,
+			);
+			path = VisualStudioMobileCenterDemoUITests;
+			sourceTree = "<group>";
+		};
+		E1F8BF9E1DE6C84900669BFE /* CommonTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E1F8BF9F1DE6C84900669BFE /* MSDetailsTableViewCell.swift */,
+				E1F8BFA01DE6C84900669BFE /* MSDetailsTableViewCell.xib */,
+				E1F8BFA11DE6C84900669BFE /* MSSwitchTableViewCell.swift */,
+				E1F8BFA21DE6C84900669BFE /* MSSwitchTableViewCell.xib */,
+				E1F8BFA31DE6C84900669BFE /* MSTitleTableViewCell.swift */,
+				E1F8BFA41DE6C84900669BFE /* MSTitleTableViewCell.xib */,
+			);
+			path = CommonTableViewCell;
+			sourceTree = "<group>";
+		};
+		E1F8BFA51DE6C84900669BFE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1F8BFB31DE6C8BF00669BFE /* MSAlertController */,
+				E1F8BFA61DE6C84900669BFE /* CrashReportViewController */,
+				E1F8BFA81DE6C84900669BFE /* MainViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E1F8BFA61DE6C84900669BFE /* CrashReportViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E1F8BFA71DE6C84900669BFE /* MSCrashReportViewController.swift */,
+			);
+			path = CrashReportViewController;
+			sourceTree = "<group>";
+		};
+		E1F8BFA81DE6C84900669BFE /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E1F8BFA91DE6C84900669BFE /* TableViewCell */,
+				E1F8BFAA1DE6C84900669BFE /* ViewController.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		E1F8BFA91DE6C84900669BFE /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		E1F8BFB31DE6C8BF00669BFE /* MSAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				E1F8BFB41DE6C8BF00669BFE /* MSAlertController.h */,
+				E1F8BFB51DE6C8BF00669BFE /* MSAlertController.m */,
+			);
+			path = MSAlertController;
+			sourceTree = "<group>";
+		};
+		E1F8BFBE1DE6CAF600669BFE /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E1F8BFB71DE6C94900669BFE /* Main.storyboard */,
+				E118DEE41DE55B7200E63722 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		E1F8BFBF1DE6CB0600669BFE /* SupportingFlies */ = {
+			isa = PBXGroup;
+			children = (
+				E118DEE21DE55B7200E63722 /* Assets.xcassets */,
+				E1F8BFBC1DE6CAE900669BFE /* MSVC-Bridging-Header.h */,
+				E118DEE71DE55B7200E63722 /* Info.plist */,
+			);
+			name = SupportingFlies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E118DED71DE55B7200E63722 /* VisualStudioMobileCenterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E118DF001DE55B7200E63722 /* Build configuration list for PBXNativeTarget "VisualStudioMobileCenterDemo" */;
+			buildPhases = (
+				78AB1DEF4158DDD40ECB5FAC /* [CP] Check Pods Manifest.lock */,
+				E118DED41DE55B7200E63722 /* Sources */,
+				E118DED51DE55B7200E63722 /* Frameworks */,
+				E118DED61DE55B7200E63722 /* Resources */,
+				8DD15ECE0B68748ABBAB0B36 /* [CP] Embed Pods Frameworks */,
+				49D053D4A3C5F17F1A38B78B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisualStudioMobileCenterDemo;
+			productName = VisualStudioMobileCenterDemo;
+			productReference = E118DED81DE55B7200E63722 /* VisualStudioMobileCenterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E118DEEB1DE55B7200E63722 /* VisualStudioMobileCenterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E118DF031DE55B7200E63722 /* Build configuration list for PBXNativeTarget "VisualStudioMobileCenterDemoTests" */;
+			buildPhases = (
+				E118DEE81DE55B7200E63722 /* Sources */,
+				E118DEE91DE55B7200E63722 /* Frameworks */,
+				E118DEEA1DE55B7200E63722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E118DEEE1DE55B7200E63722 /* PBXTargetDependency */,
+			);
+			name = VisualStudioMobileCenterDemoTests;
+			productName = VisualStudioMobileCenterDemoTests;
+			productReference = E118DEEC1DE55B7200E63722 /* VisualStudioMobileCenterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E118DEF61DE55B7200E63722 /* VisualStudioMobileCenterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E118DF061DE55B7200E63722 /* Build configuration list for PBXNativeTarget "VisualStudioMobileCenterDemoUITests" */;
+			buildPhases = (
+				E118DEF31DE55B7200E63722 /* Sources */,
+				E118DEF41DE55B7200E63722 /* Frameworks */,
+				E118DEF51DE55B7200E63722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E118DEF91DE55B7200E63722 /* PBXTargetDependency */,
+			);
+			name = VisualStudioMobileCenterDemoUITests;
+			productName = VisualStudioMobileCenterDemoUITests;
+			productReference = E118DEF71DE55B7200E63722 /* VisualStudioMobileCenterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E118DED01DE55B7200E63722 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Developer Insider";
+				TargetAttributes = {
+					E118DED71DE55B7200E63722 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2CG2Z45AZQ;
+						ProvisioningStyle = Automatic;
+					};
+					E118DEEB1DE55B7200E63722 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2CG2Z45AZQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E118DED71DE55B7200E63722;
+					};
+					E118DEF61DE55B7200E63722 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2CG2Z45AZQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E118DED71DE55B7200E63722;
+					};
+				};
+			};
+			buildConfigurationList = E118DED31DE55B7200E63722 /* Build configuration list for PBXProject "VisualStudioMobileCenterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E118DECF1DE55B7200E63722;
+			productRefGroup = E118DED91DE55B7200E63722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E118DED71DE55B7200E63722 /* VisualStudioMobileCenterDemo */,
+				E118DEEB1DE55B7200E63722 /* VisualStudioMobileCenterDemoTests */,
+				E118DEF61DE55B7200E63722 /* VisualStudioMobileCenterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E118DED61DE55B7200E63722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F8BFAC1DE6C84900669BFE /* MSDetailsTableViewCell.xib in Resources */,
+				E118DEE61DE55B7200E63722 /* LaunchScreen.storyboard in Resources */,
+				E1F8BFB01DE6C84900669BFE /* MSTitleTableViewCell.xib in Resources */,
+				E1F8BFB91DE6C94900669BFE /* Main.storyboard in Resources */,
+				E1F8BFAE1DE6C84900669BFE /* MSSwitchTableViewCell.xib in Resources */,
+				E118DEE31DE55B7200E63722 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E118DEEA1DE55B7200E63722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E118DEF51DE55B7200E63722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49D053D4A3C5F17F1A38B78B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VisualStudioMobileCenterDemo/Pods-VisualStudioMobileCenterDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78AB1DEF4158DDD40ECB5FAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8DD15ECE0B68748ABBAB0B36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VisualStudioMobileCenterDemo/Pods-VisualStudioMobileCenterDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E118DED41DE55B7200E63722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F8BFAB1DE6C84900669BFE /* MSDetailsTableViewCell.swift in Sources */,
+				E1F8BFB11DE6C84900669BFE /* MSCrashReportViewController.swift in Sources */,
+				E118DEDC1DE55B7200E63722 /* AppDelegate.swift in Sources */,
+				E1F8BFBD1DE6CAE900669BFE /* MSVC-Bridging-Header.h in Sources */,
+				E1F8BFB21DE6C84900669BFE /* ViewController.swift in Sources */,
+				E1F8BFAD1DE6C84900669BFE /* MSSwitchTableViewCell.swift in Sources */,
+				E1F8BFB61DE6C8BF00669BFE /* MSAlertController.m in Sources */,
+				E1F8BFAF1DE6C84900669BFE /* MSTitleTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E118DEE81DE55B7200E63722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E118DEF11DE55B7200E63722 /* VisualStudioMobileCenterDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E118DEF31DE55B7200E63722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E118DEFC1DE55B7200E63722 /* VisualStudioMobileCenterDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E118DEEE1DE55B7200E63722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E118DED71DE55B7200E63722 /* VisualStudioMobileCenterDemo */;
+			targetProxy = E118DEED1DE55B7200E63722 /* PBXContainerItemProxy */;
+		};
+		E118DEF91DE55B7200E63722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E118DED71DE55B7200E63722 /* VisualStudioMobileCenterDemo */;
+			targetProxy = E118DEF81DE55B7200E63722 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E118DEE41DE55B7200E63722 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E118DEE51DE55B7200E63722 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E1F8BFB71DE6C94900669BFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1F8BFB81DE6C94900669BFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E118DEFE1DE55B7200E63722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E118DEFF1DE55B7200E63722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E118DF011DE55B7200E63722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EECF96ECA46A066F9FA8CED1 /* Pods-VisualStudioMobileCenterDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2CG2Z45AZQ;
+				INFOPLIST_FILE = VisualStudioMobileCenterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developerinsider.VisualStudioMobileCenterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MSVC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E118DF021DE55B7200E63722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60BF8F9FCA9879006194571 /* Pods-VisualStudioMobileCenterDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2CG2Z45AZQ;
+				INFOPLIST_FILE = VisualStudioMobileCenterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developerinsider.VisualStudioMobileCenterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MSVC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E118DF041DE55B7200E63722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2CG2Z45AZQ;
+				INFOPLIST_FILE = VisualStudioMobileCenterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developerinsider.VisualStudioMobileCenterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisualStudioMobileCenterDemo.app/VisualStudioMobileCenterDemo";
+			};
+			name = Debug;
+		};
+		E118DF051DE55B7200E63722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2CG2Z45AZQ;
+				INFOPLIST_FILE = VisualStudioMobileCenterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developerinsider.VisualStudioMobileCenterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisualStudioMobileCenterDemo.app/VisualStudioMobileCenterDemo";
+			};
+			name = Release;
+		};
+		E118DF071DE55B7200E63722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2CG2Z45AZQ;
+				INFOPLIST_FILE = VisualStudioMobileCenterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developerinsider.VisualStudioMobileCenterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VisualStudioMobileCenterDemo;
+			};
+			name = Debug;
+		};
+		E118DF081DE55B7200E63722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2CG2Z45AZQ;
+				INFOPLIST_FILE = VisualStudioMobileCenterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developerinsider.VisualStudioMobileCenterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VisualStudioMobileCenterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E118DED31DE55B7200E63722 /* Build configuration list for PBXProject "VisualStudioMobileCenterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E118DEFE1DE55B7200E63722 /* Debug */,
+				E118DEFF1DE55B7200E63722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E118DF001DE55B7200E63722 /* Build configuration list for PBXNativeTarget "VisualStudioMobileCenterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E118DF011DE55B7200E63722 /* Debug */,
+				E118DF021DE55B7200E63722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E118DF031DE55B7200E63722 /* Build configuration list for PBXNativeTarget "VisualStudioMobileCenterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E118DF041DE55B7200E63722 /* Debug */,
+				E118DF051DE55B7200E63722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E118DF061DE55B7200E63722 /* Build configuration list for PBXNativeTarget "VisualStudioMobileCenterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E118DF071DE55B7200E63722 /* Debug */,
+				E118DF081DE55B7200E63722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E118DED01DE55B7200E63722 /* Project object */;
+}
